@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AppComponent } from '../app.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -10,7 +11,8 @@ import { AppComponent } from '../app.component';
     SidebarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   
   exports:[
