@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AppComponent } from '../app.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -16,7 +17,8 @@ import { AppRoutingModule } from '../app-routing.module';
   ],
   
   exports:[
-    SidebarComponent
+    SidebarComponent,
+    RouterModule
   ],
 
 })

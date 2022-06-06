@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./por-capital.component.css']
 })
 export class PorCapitalComponent implements OnInit {
+  
 
   constructor() { }
 
