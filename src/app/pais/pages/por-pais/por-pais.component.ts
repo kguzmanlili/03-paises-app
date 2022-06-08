@@ -22,7 +22,7 @@ export class PorPaisComponent implements OnInit {
     this.termino = termino;
      this.paisService.buscarPais(this.termino).subscribe( paises => {
        this.paises = paises;
-      // console.log(paises);
+      console.log(paises);
     },(error) => {
       this.hayError = true;
       this.paises=[]
